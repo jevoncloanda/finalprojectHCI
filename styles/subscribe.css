@@ -1,0 +1,89 @@
+.subscribe {
+    padding: 200px 0;
+    background-color: #FEFEEA;
+}
+
+.subscribe_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 5px;
+}
+
+.subscribe_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.subscribe_left h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe_left p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe_left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding: 0 5px;
+}
+
+.subscribe_left form input {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    padding: 0 5px;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #FEFEEA;
+}
+
+.subscribe_btn {
+    padding: 10px 20px;
+    color: #FEFEEA;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.subscribe_right {
+    margin-left: 100px;
+    width: 55%;
+    height: 100%;
+}
+
+.subscribe_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .subscribe_right {
+        display: none;
+    }
+
+    .subscribe_left {
+        margin: 0;
+    }
+}
