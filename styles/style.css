@@ -4,8 +4,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Whyte Inktrap';
+    font-family: 'Circular Std';
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Tiempos Headline';
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Circular Std';
+    font-weight: 300;
 }
 
 .navbar {
@@ -224,7 +234,6 @@
 
 .home_text h1 {
     font-size: 3rem;
-    font-weight: bold;
     margin-bottom: 1rem;
 }
 
@@ -394,7 +403,6 @@
 
 .about_text h1 {
     font-size: 3rem;
-    font-weight: bold;
     margin-bottom: 1rem;
 }
 
@@ -534,7 +542,6 @@
 
 .our_works_text h1 {
     font-size: 3rem;
-    font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -730,4 +737,8 @@
         margin-bottom: 15px;
         color: #FEFEEA;
     }
+}
+
+.underline {
+    text-decoration: underline;
 }

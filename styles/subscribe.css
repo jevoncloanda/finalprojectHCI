@@ -25,7 +25,6 @@
 
 .subscribe_left h1 {
     font-size: 2.5rem;
-    font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -45,6 +44,7 @@
     max-width: 500px;
     height: 100%;
     padding: 0 5px;
+    position: relative;
 }
 
 .subscribe_left form input {
@@ -64,6 +64,8 @@
     color: #FEFEEA;
     background-color: black;
     margin-top: 20px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .subscribe_right {
