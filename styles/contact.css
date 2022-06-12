@@ -19,7 +19,6 @@
 
 .contact_container h1 {
     font-size: 2.5rem;
-    font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -28,21 +27,12 @@
     width: 50%;
 }
 
-.contact_img_container {
-    margin: 20px 0;
-    height: 100%;
-}
-
-.contact_img_container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.contact_container p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    text-align: center;
+.location_container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 40px 0;
 }
 
 .contact_socials {
@@ -65,52 +55,55 @@
     object-fit: cover;
 }
 
-@media screen and (max-width:800px) {
-    .contact_container {
-        width: 100%;
-        max-width: 500px;
-    }
+.subscribe_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
 
-    .contact_container h1 {
-        font-size: 2rem;
-    }
+.subscribe_left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-    .contact_container hr{
-        width: 100%;
-    }
+.subscribe_left p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-    .contact_img_container {
-        margin: 20px 0;
-        height: 100%;
-    }
+.subscribe_left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding: 0 5px;
+    position: relative;
+}
 
-    .contact_img_container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.subscribe_left form input {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    padding: 0 5px;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #FEFEEA;
+}
 
-    .contact_container p {
-        font-size: 1rem;
-    }
-
-    .contact_socials {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .contact_socials a {
-        width: 35px;
-        height: 35px;
-    }
-
-    .contact_socials img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.subscribe_btn {
+    padding: 10px 20px;
+    color: #FEFEEA;
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid black;
+    cursor: pointer;
 }
