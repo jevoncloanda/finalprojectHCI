@@ -521,7 +521,7 @@ p {
 
 .our_works {
     background: #FEFEEA;
-    padding: 200px 0;
+    padding-bottom: 100px;
 }
 
 .our_works_container {
@@ -543,7 +543,7 @@ p {
 .our_works_text h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 .our_works_img_container {
