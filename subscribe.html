@@ -40,11 +40,15 @@
             <div class="subscribe_left">
                 <h1>Subscribe to our newsletter</h1>
                 <p>sign up for exclusive content, portraits, products and updates</p>
-                <form id="form" action="">
-                    <input id="name" name="name" type="text" placeholder="Full Name">
-                    <input id="email" name="email" type="text" placeholder="Email Address">
-                    <input id="phone" name="phone" type="text" placeholder="Phone">
-                    <input id="country" name="country" type="text" placeholder="Country">
+                <form id="form" action="/">
+                    <input id="name" name="name" type="text" placeholder="Full Name" class="input">
+                    <input id="email" name="email" type="email" placeholder="Email Address" class="input">
+                    <input id="phone" name="phone" type="tel" placeholder="Phone" class="input">
+                    <input id="country" name="country" type="text" placeholder="Country" class="input">
+                    <div class="checkbox">
+                        <input id="checkbox" name="checkbox" type="checkbox">
+                        <label for="checkbox">I agree to mtGraphy's term and conditions</label>
+                    </div>
 
                     <button type="submit" class="subscribe_btn">SUBSCRIBE</button>
                 </form>
